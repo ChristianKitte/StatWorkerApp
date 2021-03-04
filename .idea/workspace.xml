@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8f14f6a-51f5-4ecb-be4b-4bf49ed707a4" name="Default" comment="Initial" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/StatWorkerApp$manage.coverage" NAME="manage Coverage Results" MODIFIED="1529518938089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/StatWorkerApp$Test__StatWorkerApp.coverage" NAME="Test: StatWorkerApp Coverage Results" MODIFIED="1527621494702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="StatWorkerApp" is-module-sdk="true">
+    <option name="useSoftWraps" value="true" />
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="StatWorkerApp" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="StatWorkerApp" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\ckitte\Desktop\Python\Semesterprojekt\StatWorkerApp</dir>
+    </dirStrings>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/stat_worker_app/urls.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/stat_worker_app/views.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/stat_worker_site/wsgi.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/stat_worker_app/forms.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/stat_worker_site/settings.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/stat_worker_app/__init__.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/stat_worker_app/distribution.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/stat_worker_app/plots.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/stat_worker_app/apps.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/stat_worker_app/models.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/StatWorker/url.py" />
+        <option value="$PROJECT_DIR$/StatWorker/templates/StatWorker/welcome.html" />
+        <option value="$PROJECT_DIR$/StatWorker/views.py" />
+        <option value="$PROJECT_DIR$/StatWorker/urls.py" />
+        <option value="$PROJECT_DIR$/stat_worker/templates/stat_worker/Dateneingabe.html" />
+        <option value="$PROJECT_DIR$/stat_worker/templates/stat_worker/results.html" />
+        <option value="$PROJECT_DIR$/stat_worker/templates/stat_worker/privacy.html" />
+        <option value="$PROJECT_DIR$/stat_worker/templates/stat_worker/imprint.html" />
+        <option value="$PROJECT_DIR$/stat_worker/templates/stat_worker/about.html" />
+        <option value="$PROJECT_DIR$/stat_worker/templates/stat_worker/datainput.html" />
+        <option value="$PROJECT_DIR$/stat_worker/static/bootstrap/js/clientside.js" />
+        <option value="$PROJECT_DIR$/stat_worker/templates/stat_worker/welcome.html" />
+        <option value="$PROJECT_DIR$/stat_worker/templates/stat_worker/base.html" />
+        <option value="$PROJECT_DIR$/stat_worker/templates/stat_worker/methods.html" />
+        <option value="$PROJECT_DIR$/StatWorkerApp/urls.py" />
+        <option value="$PROJECT_DIR$/stat_worker/models.py" />
+        <option value="$PROJECT_DIR$/stat_worker/forms.py" />
+        <option value="$PROJECT_DIR$/stat_worker/templates/stat_worker/error.html" />
+        <option value="$PROJECT_DIR$/stat_worker/urls.py" />
+        <option value="$PROJECT_DIR$/stat_worker/views.py" />
+        <option value="$PROJECT_DIR$/stat_worker/static/app/js/clientside.js" />
+        <option value="$PROJECT_DIR$/stat_worker/templates/stat_worker/compute.html" />
+        <option value="$PROJECT_DIR$/stat_worker_app/views_.py" />
+        <option value="$PROJECT_DIR$/stat_worker_site/settings.py" />
+        <option value="$PROJECT_DIR$/stat_worker_site/wsgi.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/stat_worker_site/urls.py" />
+        <option value="$PROJECT_DIR$/stat_worker_app/templates/app/imprint.html" />
+        <option value="$PROJECT_DIR$/stat_worker_app/templates/app/welcome.html" />
+        <option value="$PROJECT_DIR$/stat_worker_app/templates/app/about.html" />
+        <option value="$PROJECT_DIR$/stat_worker_app/urls.py" />
+        <option value="$PROJECT_DIR$/stat_worker_app/templates/app/results_bv.html" />
+        <option value="$PROJECT_DIR$/stat_worker_app/templates/app/results_nv.html" />
+        <option value="$PROJECT_DIR$/stat_worker_app/templates/app/results_gv.html" />
+        <option value="$PROJECT_DIR$/stat_worker_app/apps.py" />
+        <option value="$PROJECT_DIR$/stat_worker_app/plots.py" />
+        <option value="$PROJECT_DIR$/stat_worker_app/distribution.py" />
+        <option value="$PROJECT_DIR$/stat_worker_app/static/app/js/clientside.js" />
+        <option value="$PROJECT_DIR$/stat_worker_app/views.py" />
+        <option value="$PROJECT_DIR$/stat_worker_app/templates/app/methods.html" />
+        <option value="&lt;69feaccf-944b-4b5d-b58d-47b712004505&gt;/home/derneue2/StatWorkerApp/stat_worker_site/stat_worker_site/settings.py" />
+        <option value="&lt;25248c05-7a4e-4c56-aafc-3934d596d131&gt;/root/statworkerenv/stat_worker_site/stat_worker_app/distribution.py" />
+        <option value="&lt;25248c05-7a4e-4c56-aafc-3934d596d131&gt;/root/statworkerenv/stat_worker_site/stat_worker_app/templates/app/base.html" />
+        <option value="$PROJECT_DIR$/stat_worker_app/models.py" />
+        <option value="$PROJECT_DIR$/stat_worker_app/forms.py" />
+        <option value="$PROJECT_DIR$/stat_worker_app/templates/app/base.html" />
+        <option value="$PROJECT_DIR$/stat_worker_app/templates/app/compute.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="111" />
+    <option name="y" value="266" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectId" id="1pFMnMtnu5t74U8U1zoYBLNzYtf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StatWorkerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StatWorkerApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StatWorkerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StatWorkerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="stat_worker_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StatWorkerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StatWorkerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="stat_worker_app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StatWorkerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StatWorkerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="stat_worker_app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StatWorkerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StatWorkerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="stat_worker_app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StatWorkerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StatWorkerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="stat_worker_app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StatWorkerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StatWorkerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="stat_worker_app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StatWorkerApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StatWorkerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="stat_worker_site" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="StatWorkerApp" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="StatWorkerApp" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="J:\BackUp20130831\Studium OMI\Vorherige Semester\07 SS 18\OOS Objektorientierte Skriptsprachen\Semesterprojekt\StatWorkerApp\stat_worker_app\static\app\img" />
+      <recent name="J:\BackUp20130831\Studium OMI\Vorherige Semester\07 SS 18\OOS Objektorientierte Skriptsprachen\Semesterprojekt\StatWorkerApp\stat_worker_app\templates\app" />
+      <recent name="J:\BackUp20130831\Studium OMI\Vorherige Semester\07 SS 18\OOS Objektorientierte Skriptsprachen\Semesterprojekt\StatWorkerApp\stat_worker_app" />
+      <recent name="C:\Users\ckitte\Desktop\Python\Semesterprojekt\StatWorkerApp\png" />
+      <recent name="C:\Users\ckitte\Desktop\Python\Semesterprojekt\StatWorkerApp\stat_worker_app\templates\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="J:\BackUp20130831\Studium OMI\Vorherige Semester\07 SS 18\OOS Objektorientierte Skriptsprachen\Semesterprojekt\StatWorkerApp\weg" />
+      <recent name="C:\Users\ckitte\Desktop\Python\Semesterprojekt\StatWorkerApp\stat_worker\static\app\js" />
+      <recent name="C:\Users\ckitte\Desktop\Python\Semesterprojekt\StatWorkerApp\stat_worker\templates\stat_worker" />
+      <recent name="C:\Users\ckitte\Desktop\Python\Semesterprojekt\StatWorkerApp\StatWorkerApp" />
+      <recent name="C:\Users\ckitte\Desktop\Python\Semesterprojekt\StatWorkerApp\media" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="StatWorkerApp" type="Python.DjangoServer" factoryName="Django server" singleton="true">
+      <module name="StatWorkerApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="stat_worker_site.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="127.0.0.1" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8f14f6a-51f5-4ecb-be4b-4bf49ed707a4" name="Default" comment="" />
+      <created>1527616422768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527616422768</updated>
+      <workItem from="1614774557315" duration="584000" />
+      <workItem from="1614775184470" duration="669000" />
+      <workItem from="1614882427140" duration="541000" />
+      <workItem from="1614882991369" duration="57000" />
+      <workItem from="1614883106981" duration="852000" />
+    </task>
+    <task id="LOCAL-00001" summary="Stand 23.6.2018 13:46">
+      <created>1529754387531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529754387531</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Stand 23.6.2018 16:07">
+      <created>1529762842601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529762842601</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Stand 25.6.2018 20:57">
+      <created>1529953069847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529953069847</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Stand 25.6.2018 20:57 Nachtrag">
+      <created>1529953447552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1529953447552</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Stand 30.6.2018 15:24 Nachtrag">
+      <created>1530365075025</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530365075025</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Stand 30.6.2018 18:21 Nachtrag">
+      <created>1530375670361</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530375670362</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__StatWorkerApp - 2018.05.29 at 21h 03m 45s.xml">
+      <configuration name="Test: StatWorkerApp" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__StatWorkerApp - 2018.05.29 at 21h 03m 59s.xml">
+      <configuration name="Test: StatWorkerApp" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__StatWorkerApp - 2018.05.29 at 21h 18m 16s.xml">
+      <configuration name="Test: StatWorkerApp" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32976446" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50159913" side_tool="true" weight="0.614561" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840087" weight="0.32881" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32869378" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49840087" weight="0.4229122" />
+      <window_info active="true" anchor="right" id="Remote Host" order="0" visible="true" weight="0.20255864" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72828096" visible="true" weight="0.20948827" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="5" weight="0.19296375" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32995737" />
+      <window_info id="Structure" order="1" sideWeight="0.27171904" side_tool="true" weight="0.28091684" />
+      <window_info id="Favorites" order="2" sideWeight="0.27171904" side_tool="true" weight="0.28091684" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.29657388" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="manage.py@StatWorkerApp" order="13" weight="0.32985386" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32869378" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="File Transfer" order="15" visible="true" weight="0.15524626" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32869378" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="15" weight="0.32976446" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32881" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72828096" visible="true" weight="0.24946696" />
+      <window_info id="Structure" order="1" sideWeight="0.27171904" side_tool="true" weight="0.28091684" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32976446" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32869378" />
+      <window_info anchor="bottom" id="manage.py@StatWorkerApp" order="13" weight="0.32985386" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840087" weight="0.32881" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" visible="true" weight="0.2783726" />
+      <window_info anchor="right" id="Database" order="4" weight="0.20677084" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49840087" weight="0.3183716" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50159913" side_tool="true" weight="0.614561" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32881" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="15" weight="0.32976446" />
+      <window_info id="Favorites" order="2" sideWeight="0.27171904" side_tool="true" weight="0.28091684" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Stand 23.6.2018 13:46" />
+    <MESSAGE value="Stand 23.6.2018 16:07" />
+    <MESSAGE value="Stand 25.6.2018 20:57" />
+    <MESSAGE value="Stand 25.6.2018 20:57 Nachtrag" />
+    <MESSAGE value="Stand 30.6.2018 15:24 Nachtrag" />
+    <MESSAGE value="Stand 30.6.2018 18:21 Nachtrag" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stand 30.6.2018 18:21 Nachtrag" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/static/result_regression.png" />
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/static/result_residuen.png" />
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/static/result_boxplot.png" />
+    <entry file="file://$PROJECT_DIR$/media/data-179378e5-f17c-4501-8579-53ea81c3f0e7.csv" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/matplotlib/transforms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31942">
+          <caret line="2458" selection-start-line="2458" selection-end-line="2458" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/templates/app/imprint.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/templates/app/results_nv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/templates/app/results_bv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/templates/app/privacy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/static/result_boxplot-03aadaad-bf5a-4503-a4c9-ade5401e4f65.png" />
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/static/result_distplot-54624c68-e2a4-47d1-b17d-ad6c0d5eff6f.png" />
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/static/result_histplot-10d14463-b2a3-4121-a346-c5dfedd863df.png" />
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/static/result_jointplot-2ca84ff9-64ff-4cbb-9777-5a57b5838213.png" />
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/static/result_pairplot-0748dd74-9fa3-42ea-9eb9-5735b32effdf.png" />
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/static/result_regplot-79da9a5b-c431-4574-a433-3bc5d16bf52a.png" />
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/static/result_residplot-994181b6-068b-4b37-ab6d-ad0b9c7554a3.png" />
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/templates/app/results_gv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/django/forms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="265" selection-start-line="265" selection-end-line="265" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/data-e9f9f02f-e0dc-492e-90cb-e5da94c8d4f5.csv" />
+    <entry file="file://$PROJECT_DIR$/media/data-e6ec0cd8-1c72-4f24-9943-3b06dcb7c922.csv" />
+    <entry file="file://$PROJECT_DIR$/media/data-d77c238d-fb46-4ff4-892b-ace5d1659c34.csv" />
+    <entry file="file://$PROJECT_DIR$/media/data-ce495f1d-a03b-4bcc-a54c-bbc282f9e3a0.csv" />
+    <entry file="file://$PROJECT_DIR$/media/data-caeb8414-153d-4b6c-bef3-965d5ed01fe2.csv" />
+    <entry file="file://$PROJECT_DIR$/media/data-a3c5cb65-54c5-424a-9dea-26585b73430e.csv" />
+    <entry file="file://$PROJECT_DIR$/media/data-3e433847-ff31-4fa3-9ae8-d6668992bd46.csv" />
+    <entry file="file://$PROJECT_DIR$/media/data-1bf43513-91dc-4088-9984-72fecdb3e811.csv" />
+    <entry file="file://$PROJECT_DIR$/media/data-c2e8f867-6350-4705-be1a-fcbb51c79661.csv" />
+    <entry file="file://$PROJECT_DIR$/media/data-6d566b4c-a6fc-43dc-b02f-354f6654f66b.csv" />
+    <entry file="file://$PROJECT_DIR$/media/data-5c81dc28-2d7d-4e8c-9a94-643a50c5ed83.csv" />
+    <entry file="file://$PROJECT_DIR$/media/data-c189001f-f607-4b8b-882e-53dd266d433c.csv" />
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/templates/app/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_site/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/templates/app/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/templates/app/methods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/distribution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://823cdf15-6651-4aba-b330-e7c7f2e4af1a/schema/main/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://823cdf15-6651-4aba-b330-e7c7f2e4af1a/schema/main/table/stat_worker_app_computerequestmodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/templates/app/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/plots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_site/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/templates/app/compute.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/static/app/js/clientside.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="176" column="30" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#38#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#38#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="e#0#89#1" />
+            <element signature="e#91#146#0" expanded="true" />
+            <element signature="e#366#502#0" />
+            <element signature="e#366#462#1" />
+            <element signature="e#525#664#0" />
+            <element signature="e#525#623#1" />
+            <element signature="e#689#2576#0" />
+            <element signature="e#689#867#1" />
+            <element signature="e#1526#1701#0" />
+            <element signature="e#1955#2078#0" />
+            <element signature="e#2131#2254#0" />
+            <element signature="e#2307#2430#0" />
+            <element signature="e#2601#2746#0" />
+            <element signature="e#2601#2703#1" />
+            <element signature="e#2771#2916#0" />
+            <element signature="e#2771#2873#1" />
+            <element signature="e#2941#3086#0" />
+            <element signature="e#2941#3043#1" />
+            <element signature="e#3114#3321#0" />
+            <element signature="e#3114#3241#1" />
+            <element signature="e#3349#3554#0" />
+            <element signature="e#3349#3474#1" />
+            <element signature="e#3582#3789#0" />
+            <element signature="e#3582#3709#1" />
+            <element signature="e#3814#3959#0" />
+            <element signature="e#3814#3916#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_site/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="76" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stat_worker_site/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

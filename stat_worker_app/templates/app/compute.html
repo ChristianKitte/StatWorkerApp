@@ -1,0 +1,137 @@
+<div class='mx-auto' style='width: 80%'>
+    <div class='mx-auto mt-4 ml-4'>
+        <h4>Anleitung</h4>
+
+        <br>
+
+        <p class='text-left font-weight-normal'>
+            Als Eingabedaten werden mindestens zwei Datensätze und je Datensatz zwei Dezimalzahlen erwartet.
+            Überschriften können nicht mit angegeben werden.<br><br>
+            Für die Übergabe stehen drei Wege offen:
+        <ul>
+            <li>
+                Sie können eine <strong>Exceldatei (.xlsx)</strong> hochladen, die ihre Daten enthält. Die Daten
+                müssen auf dem ersten Sheet der Datei in den Spalten A und B enthalten sein. Andere Daten werden nicht
+                berücksichtigt. Klicken sie hierfür einfach in das Feld mit der Beschriftung "...ein Datenfile
+                hinzufügen"
+            </li>
+            <li>
+                Sie können eine <strong>CSV-Datei (.csv)</strong> hochladen, die ihre Daten enthält. Die Datei darf
+                keine leeren Zeilen enthalten. Als Trenner wir ein Semikolon (;) erwartet, als Dezimaltrenner ein
+                einfachen Komma (,). Es dürfen keine Trennzeichen für Tausender vorkommen. Klicken sie hierfür
+                einfach in das Feld mit der Beschriftung "...ein Datenfile hinzufügen"
+            </li>
+            <li>
+                Für wenige Daten eigent sich auch die <strong>manuelle Eingabe in eine Tabelle</strong>. Bitte wählen
+                sie hierfür die Option "Daten manuell eingeben" aus. Als Dezimaltrenner wird ein einfachen Komma (,)
+                erwartet. Es dürfen keine Trennzeichen für Tausender vorkommen. Über die Tasten "Eine Zeile hinzufügen"
+                sowie "Die letzte Zeile entfernen" können sie die Tabelle anpassen. Bitte beachten sie, dass mit dem
+                Löschen auch die Werte der Tabellenzeile verloren geht.
+            </li>
+        </ul>
+        Anschließend wählen sie aus der Liste eine der drei Berechnungsmethoden und starten die Berechnung mit
+        bem Button "Berechnen". Der Button "löschen..." löscht die gemachten Eingaben.<br>
+        Je nach Methode kann die Berechnung und Erzeugung der Grafiken einige Sekunden in Anspruch nehmen.
+        </p>
+
+        <br>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Dateneingabe</h5>
+
+                <form id="formCompute" method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+
+                    {{ form.method }}
+
+                    <br>
+                    <br>
+
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input id="optFile" type="radio" class="form-check-input" name="datenart" value="upload"
+                                   checked="true"
+                                   onchange="toggleFileTable()">Daten als Datei hochladen (.csv oder .xlsx)
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input id="optTable" type="radio" class="form-check-input" name="datenart" value="manuell"
+                                   onchange="toggleFileTable()">Daten manuell eingeben
+                        </label>
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <button class="btn btn-primary" type="submit">Berechnen</button>
+                    <button class="btn btn-secondary" type="reset">löschen...</button>
+                    <input type='file' class='custom-file-input' name='file2' id='fileupload2'
+                           accept=".csv">
+
+                    <br>
+                    <br>
+
+                    <div id="fileinput" class="input-group mb-3">
+                        <div class='custom-file'>
+                            <input type='file' class='custom-file-input' name='file' id='fileupload'
+                                   onchange="fillUploadLabel()" accept=".csv, .xlsx">
+                            <label class='custom-file-label' for='fileupload' id="fileuploadLabel"> ...ein Datenfile
+                                hinzufügen</label>
+                        </div>
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <button id="addButton" class="btn btn-success invisible" type="button" onclick="addTableRow()">Eine
+                        Zeile
+                        hinzufügen
+                    </button>
+                    <button id="delButton" class="btn btn-success invisible" type="button" onClick="removeTabeleRow()">
+                        Die letzte
+                        Zeile entfernen
+                    </button>
+
+                    <br>
+                    <br>
+
+                    <table class="invisible" id="table" style="width:100%">
+                        <tr id="00">
+                            <td>Datenwert 1</td>
+                            <td>Datenwert 1</td>
+                        </tr>
+                        <tr id="01">
+                            <td><input class="w-100" id="011" type="number" step="0.001" placeholder="011"/></td>
+                            <td><input class="w-100" id="012" type="number" step="0.001" placeholder="012"/></td>
+                        </tr>
+                        <tr id="02">
+                            <td><input class="w-100" id="021" type="number" step="0.001" placeholder="021"/></td>
+                            <td><input class="w-100" id="022" type="number" step="0.001" placeholder="022"/></td>
+                        </tr>
+                        <tr id="03">
+                            <td><input class="w-100" id="031" type="number" step="0.001" placeholder="031"/></td>
+                            <td><input class="w-100" id="032" type="number" step="0.001" placeholder="032"/></td>
+                        </tr>
+                        <tr id="04">
+                            <td><input class="w-100" id="041" type="number" step="0.001" placeholder="041"/></td>
+                            <td><input class="w-100" id="042" type="number" step="0.001" placeholder="042"/></td>
+                        </tr>
+                    </table>
+
+                    <br>
+                    <br>
+
+                </form>
+
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</div>

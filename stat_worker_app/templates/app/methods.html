@@ -1,0 +1,112 @@
+<div class='mx-auto' style='width: 80%'>
+    <div class='mx-auto mt-4 ml-4'>
+        <h4>Verwendete Methoden</h4>
+
+        <br>
+
+        <p class='text-left font-weight-normal'>
+            Diese Seite bietet für die statistische Auswertung ihrer Daten die <strong>Normalverteilung</strong>, die
+            <strong>Gleichverteilung</strong> sowie die <strong>Binominalverteilung</strong> zur Auswahl an. Zu jeder
+            der genannten Methoden werden als Ergebnis verschiedene Grafiken ausgegeben, auf die weiter unten näher
+            eingegangen wird.
+        </p>
+
+        <div class="card-columns">
+            <div class="card mb-4 same-height">
+                {% load static %} <img class="card-img-top" src="{% static "app/img/regplot.png" %}"
+                                       alt="Card image caption">
+                <div class="card-body">
+                    <h4 class="card-title"><b>Normalverteilung</b></h4>
+                    <p class="card-text">
+                        Die Normalverteilung, auch <b> N(&mu;, &sigma;)</b>-Verteilung genannt, ist eine der am
+                        häufigsten vorkommenden Verteilungen von Daten. Liegt eine Normalverteilung der Daten vor sind
+                        diese um einen Wert &mu; gestreut. Die Streuung der Daten wiederum wird durch die
+                        Standardabweichung &sigma; beschrieben. Eine Schätzung des zu erwartenden Wertes wird durch die
+                        Berechnung des Mittelwertes der Daten vorgenommen.
+                        <br>
+                        <br>
+                        In unserem Programm werden Sie bei Anklicken der <b>N(&mu;, &sigma;)</b>-Verteilung eine Reihe
+                        von
+                        Plots angezeigt bekommen. Speziell das <b>JointPlot</b> zeigt Ihnen den
+                        Pearson-Korrelationskoeffizienten und die Fehlerwahrscheinlichkeit an. Dabei bedeuten Werte für
+                        Pearson > 0.75 (positive Korrelation) oder < -0.75 (negative Korrelation), dass von einer
+                        Normalverteilung ausgegangen werden kann. Weitere wichtige Plots sind das <b>RegPlot </b>,
+                        <b>ResiduenPlot</b> und das <b>Boxplot</b>. Das RegPlot zeigt Ihnen die Regressionsgerade
+                        durch Ihre Daten.
+                        <br>
+                        <br>
+                        Weitergehende Informationen zur Normalverteilung finden Sie unter <a
+                            href="https://de.wikipedia.org/wiki/Normalverteilung">Wikipedia </a>
+                    </p>
+                    <a href="#" class="btn btn-primary"
+                       onclick="getPage('compute','content','navbarNav')">Ausprobieren</a>
+                </div>
+            </div>
+
+            <div class="card mb-4 same-height">
+                {% load static %} <img class="card-img-top same-height-img" src="{% static "app/img/pairplot.png" %}"
+                                       alt="Card image caption">
+                <div class="card-body">
+                    <h4 class="card-title"><b>Gleichverteilung</b></h4>
+                    <p class="card-text">Die Gleichverteilung beschreibt eine Art der Wahrscheinlichkeitsverteilung,
+                        bei der die eintretenden möglichen Ereignisse eines Experimentes gleichverteilt sind. D.h. die
+                        Wahrscheinlichkeit des Eintretens eines Ereignisses ist für alle Werte gleich.
+                        <br>
+                        <br>
+                        Ein Beispiel für gleichverteilte Daten ist der Würfel. Die Ergebnisse beim Würfeln nach einem
+                        Wurf sind die Augenzahlen &ohm; = {1, 2, 3, 4, 5, 6}. Ist der Würfel ideal beträgt die
+                        Eintrittswahrscheinlichkeit jeder dieser Werte 1/6, da sie für jeden der sechs möglichen Werte
+                        gleich groß ist und die Summe der Einzelwahrscheinlichkeiten 1 ergeben muss.
+                        <br>
+                        <br>
+                        Mit unserem Programm können Sie anhand der drei gezeigten Grafiken <b>Boxplot</b>, dem
+                        <b>DistPlot</b> und dem <b>Pairplot</b> schauen, ob ihre Daten gleichverteilt oder stark
+                        streuen sind. Zudem wird Ihnen im <b>DistPlot</b> die Dichtefunktion Ihrer Daten angezeigt.
+                        <br>
+                        <br>
+                        Für weitergehende Informationen zur Gleichverteilung schauen Sie bitte unter
+                        <a href="https://de.wikipedia.org/wiki/Gleichverteilung">Wikipedia</a>
+                    </p>
+                    <a href="#" class="btn btn-primary"
+                       onclick="getPage('compute','content','navbarNav')">Ausprobieren</a>
+                </div>
+            </div>
+
+            <div class="card mb-4 same-height">
+                {% load static %} <img class="card-img-top" src="{% static "app/img/jointplot.png" %}"
+                                       alt="Card image caption">
+                <div class="card-body">
+                    <h4 class="card-title"><b> Binomialverteilung</b></h4>
+                    <p class="card-text">
+                        Einer der wichtigsten diskreten Wahrscheinlichkeitsverteilungen ist die Binomialverteilung.
+                        Mit zunehmender Anzahl an beobachteten Ereignissen nähert sich die Binomialverteilung der
+                        Normalverteilung an.
+                        <br>
+                        <br>
+                        So können Sie anhand der gezeigten Plots <b> Boxplot</b>, <b>Distplot</b>, <b>Histoplot</b> und
+                        dem <b>Jointplot</b> erkennen, um welchen Erwartungswert (Geschätzt durch: n * p; n = Anzahl der
+                        Datenausprägungen, p = Erfolgswahrscheinlichkeit bei einem Versuch) Ihre Daten variieren.
+                        <br>
+                        <br> Das <b>Jointplot</b> wird Ihnen wegen der Näherung zur Normalverteilung angezeigt.
+                        <br>
+                        <br>
+                        Beispiele für das Vorliegen von binomialverteilten Daten sind z.B. das
+                        Urnenmodell (Ziehen von Kugeln) oder die Berechnung der Wahrscheinlichkeit des Erfolgs beim
+                        Roulette.
+                        <br>
+                        <br>
+                        Weitergehende Informationen zur Binomialverteilung finden Sie unter <a
+                            href="https://de.wikipedia.org/wiki/Binomialverteilung">Wikipedia</a>
+                    </p>
+                    <a href="#" class="btn btn-primary"
+                       onclick="getPage('compute','content','navbarNav')">Ausprobieren</a>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</div>
